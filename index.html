@@ -1,0 +1,3548 @@
+<!-- PC區塊_主視覺開始 -->
+<meta name="viewport"
+	content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta property="og:image" content="images/FB%200817_1200x628.jpg" />
+<meta charset="UTF-8" />
+<!-- <link rel="stylesheet" href="https://img.udn.com/art/20190401_mk_SP_01/animate.css">
+ <link rel="stylesheet" href="https://img.udn.com/art/01_sp/20200406_mk_SP_02/css/shine.css"> -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">  -->
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+<style>
+	:focus {
+		outline: 0;
+	}
+
+	* {
+		/* outline: none; */
+	}
+
+	img {
+		border: 0;
+	}
+
+	html,
+	body {
+		margin: 0;
+		padding: 0;
+		min-width: 0;
+		/* 必寫!!!*/
+	}
+
+	.vspc_bg {
+		margin: 0;
+		padding: 0;
+		min-width: 0;
+		/* 必寫!!!*/
+		height: auto;
+		background-color: #f9cdca;
+		background-image: url(images/index_BG.jpg);
+		/* 滿版主視覺背景 */
+		background-repeat: no-repeat;
+		background-position: center top;
+		/* background-position: center 182px; */
+		/* 套HEADER時需要打開 */
+	}
+
+	/*-------------------------*/
+	/* 視差背景_樣式
+---------------------------*/
+
+	.rellax_bg {
+		max-width: 1920px;
+		position: fixed;
+		top: -100px;
+		left: calc(50% - 920px);
+		z-index: 1;
+	}
+
+	/*-------------------------*/
+	/* pc區塊_樣式
+---------------------------*/
+
+	.vspc {
+		width: 100%;
+		height: auto;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.vspc * {
+		margin: 0;
+		padding: 0;
+		-webkit-text-size-adjust: none;
+		list-style: none;
+		background-position: center top;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		position: relative;
+		box-sizing: border-box;
+	}
+
+	.vspc img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+		position: relative;
+	}
+
+	/*-------------------------*/
+	/* pc區塊_main_樣式 
+---------------------------*/
+
+	.vspc .main {
+		width: 1190px;
+		height: auto;
+		min-height: 1214px;
+		/* 必填  請填入main高度 */
+		margin: 0 auto;
+		/* background-color: #4fe10b; */
+		position: relative;
+		background-image: url(images/index_02.jpg);
+
+	}
+
+	/*-------------------------*/
+	/* 視覺左上角活動LOGO_樣式
+---------------------------*/
+	.udnLOGO {
+		display: block;
+		z-index: 700;
+		position: absolute;
+		width: calc(139/1190*100%);
+		/* 更改數值 調整logo大小 */
+		left: calc(40/1190*100%);
+		top: 20px;
+	}
+
+	.udnLOGO span {
+		display: block;
+		width: 100%;
+		height: 0;
+		background-size: 100% auto;
+		padding-bottom: calc(293/797*100%);
+		/* 更改數值 調整logo整體高度*/
+
+		/* padding-bottom: calc(360/797*100%); */
+		/* 用第4/5 底色_logo 打開開素質 */
+
+		/* 更換需要的logo路徑 2018舊版 or 2019-新版  */
+		background-image: url(https://img.udn.com/art/2019_logo/images/new_udnlogo_01.svg);
+	}
+
+	/* 背景動態_樣式
+---------------------------*/
+
+
+
+
+	/* ======= 大標 ======= */
+
+	.animated {
+		-webkit-animation-duration: 2s;
+		animation-duration: 2s;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+	}
+
+
+	.vspc .main .udn_logo {
+		display: block;
+		width: 340px;
+		height: 115px;
+		position: absolute;
+		top: 40px;
+		left: 427px;
+		/* animation: bounceInDown .8s .1s both; */
+
+	}
+
+
+
+
+	.vspc .main .T01 {
+		display: block;
+		width: 676px;
+		height: 399px;
+		position: absolute;
+		top: 150px;
+		left: 248px;
+		/* animation: bounceInDown .8s .1s both; */
+
+	}
+
+
+
+
+	.vspc .main .T01_1 {
+		display: block;
+		width: 82px;
+		height: 95px;
+		position: absolute;
+		top: 383px;
+		right: 281px;
+		
+	}
+
+
+	.vspc .main .bounce{
+		animation: bounce 2s linear infinite;
+	}
+
+	@-webkit-keyframes bounce {
+	0%, 5%, 12.5%, 20%, 25% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	
+	10% {
+		-webkit-transform: translateY(-10%);
+		transform: translateY(-10%);
+	}
+	
+	15% {
+		-webkit-transform: translateY(-5%);
+		transform: translateY(-5%);
+	}
+	}
+	
+	@keyframes bounce {
+	0%, 5%, 12.5%, 20%, 25% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	
+	10% {
+		-webkit-transform: translateY(-10%);
+		transform: translateY(-10%);
+	}
+	
+	15% {
+		-webkit-transform: translateY(-5%);
+		transform: translateY(-5%);
+	}
+	}
+
+
+
+	.vspc .main .T01_2{
+		display: block;
+		width: 81px;
+		height: 81px;
+		position: absolute;
+		top: 350px;
+		left: 333px;
+	}
+
+
+	.vspc .main .swing{
+		animation:swing 1.5s .5s infinite ;
+	}
+
+	@keyframes swing {
+	20% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+	}
+
+	40% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+	}
+
+	60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+	}
+
+	80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+	}
+
+	to {
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+    transform: rotate3d(0, 0, 0, 0deg);
+	}
+}
+
+
+
+
+
+
+/* ==== 0825icon ==== */
+
+	.vspc .main .icon_0825 {
+		display: block;
+		width: 185px;
+		height: 162px;
+		position: absolute;
+		top: 56px;
+		right: 237px;
+		/* animation: bounceInDown .8s .1s both; */
+
+	}
+
+
+	.vspc .main .mob_logo {
+		display: none;
+	}
+
+
+
+	@keyframes pop-out {
+		0% {
+			-webkit-transform: scale3d(0, 0, 1);
+			-moz-transform: scale3d(0, 0, 1);
+			-ms-transform: scale3d(0, 0, 1);
+			-o-transform: scale3d(0, 0, 1);
+			transform: scale3d(0, 0, 1);
+			-webkit-filter: contrast(1);
+			-moz-filter: contrast(1);
+			-ms-filter: contrast(1);
+			-o-filter: contrast(1);
+			filter: contrast(1);
+		}
+
+		25% {
+			-webkit-transform: scale3d(1.2, 1.2, 1);
+			-moz-transform: scale3d(1.2, 1.2, 1);
+			-ms-transform: scale3d(1.2, 1.2, 1);
+			-o-transform: scale3d(1.2, 1.2, 1);
+			transform: scale3d(1.2, 1.2, 1);
+			-webkit-filter: contrast(2);
+			-moz-filter: contrast(2);
+			-ms-filter: contrast(2);
+			-o-filter: contrast(2);
+			filter: contrast(2);
+		}
+
+		100% {
+			-webkit-transform: scale3d(1, 1, 1);
+			-moz-transform: scale3d(1, 1, 1);
+			-ms-transform: scale3d(1, 1, 1);
+			-o-transform: scale3d(1, 1, 1);
+			transform: scale3d(1, 1, 1);
+			-webkit-filter: contrast(1);
+			-moz-filter: contrast(1);
+			-ms-filter: contrast(1);
+			-o-filter: contrast(1);
+			filter: contrast(1);
+		}
+	}
+
+	@keyframes OPACITY {
+
+		0%,
+		60%,
+		80%,
+		100% {
+			opacity: 0;
+		}
+
+		68% {
+			opacity: 1;
+		}
+	}
+
+
+
+
+
+	@keyframes decoration {
+		0% {
+			-webkit-transform: scale(0);
+			-moz-transform: scale(0);
+			-ms-transform: scale(0);
+			-o-transform: scale(0);
+			transform: scale(0);
+			opacity: 0;
+		}
+
+		10% {
+			-webkit-transform: scale(3);
+			-moz-transform: scale(3);
+			-ms-transform: scale(3);
+			-o-transform: scale(3);
+			transform: scale(3);
+			opacity: 1;
+		}
+
+		50% {
+			-webkit-transform: scale(.8);
+			-moz-transform: scale(.8);
+			-ms-transform: scale(.8);
+			-o-transform: scale(.8);
+			transform: scale(.8);
+			opacity: 1;
+		}
+
+		100% {
+			-webkit-transform: scale(1);
+			-moz-transform: scale(1);
+			-ms-transform: scale(1);
+			-o-transform: scale(1);
+			transform: scale(1);
+			opacity: 1;
+		}
+	}
+
+	.shine {
+		animation: shine 1s infinite alternate;
+	}
+
+	@keyframes shine {
+		0% {
+			opacity: 0.5;
+		}
+
+		50% {
+			opacity: 0.7;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	.downtoup {
+		-webkit-animation: downtoup 1.5s infinite alternate;
+		animation: downtoup 1.5s infinite alternate;
+	}
+
+	@-webkit-keyframes downtoup {
+		0% {
+			-webkit-transform: translate(0, 0);
+		}
+
+		100% {
+			-webkit-transform: translate(0, -10px);
+		}
+	}
+
+	@keyframes downtoup {
+		0% {
+			transform: translate(0, 0);
+		}
+
+		100% {
+			transform: translate(0, -10px);
+		}
+	}
+
+
+
+
+
+	/* ====== 鋪底 ====== */
+
+	.vspc .main .PU {
+		width: 100%;
+		width: 1190px;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		position: absolute;
+		top: 565px;
+		left: 26px;
+
+
+	}
+
+	.vspc .main .PU .pu01 {
+		width: 348px;
+		height: 213px;
+
+		transition: all .5s;
+	}
+
+	.vspc .main .PU .pu02 {
+		width: 347px;
+		height: 213px;
+		left: 20px;
+
+		transition: all .5s;
+	}
+
+	.vspc .main .PU .pu03 {
+		width: 400px;
+		height: 213px;
+		left: 43px;
+
+		transition: all .5s;
+	}
+
+
+
+	/* ====== LOGO ======= */
+
+	.vspc .main .PU .pu04 {
+		width: 1138px;
+		height: 158px;
+		top: 10px;
+		transition: all .5s;
+		background-image: url(images/pu04_BG.png);
+	}
+
+	.vspc .main .PU .pu04 .logo01 {
+		width: 220px;
+		height: 109px;
+		transition: all .5s;
+		position: absolute;
+		top: 26px;
+		left: 80px;
+
+	}
+
+	.vspc .main .PU .pu04 .logo02 {
+		width: 123px;
+		height: 120px;
+		transition: all .5s;
+		position: absolute;
+		top: 17px;
+		left: 379px;
+
+	}
+
+	.vspc .main .PU .pu04 .logo03 {
+		width: 225px;
+		height: 59px;
+		transition: all .5s;
+		position: absolute;
+		top: 49px;
+		left: 591px;
+
+	}
+
+	.vspc .main .PU .pu04 .logo04 {
+		width: 212px;
+		height: 110px;
+		transition: all .5s;
+		position: absolute;
+		top: 26px;
+		right: 39px;
+
+	}
+
+
+	/* ======== logo 結束 ========= */
+
+
+	.vspc .main .PU .pu05 {
+		width: 420px;
+		height: 237px;
+		top: 20px;
+
+		transition: all .5s;
+	}
+
+	.vspc .main .PU .pu06 {
+		width: 703px;
+		height: 237px;
+		top: 20px;
+		left: 15px;
+
+		transition: all .5s;
+	}
+
+
+	.vspc .main .PU .pu08 .btn01 {
+		width: 200px;
+		height: 45px;
+		position: absolute;
+		top: 275px;
+		left: 115px;
+	}
+
+	.vspc .main .PU .pu08 .btn02 {
+		width: 120px;
+		height: 45px;
+		position: absolute;
+		top: 275px;
+		left: 325px;
+	}
+
+	.btnA:hover {
+		transform: translateY(-5px);
+	}
+
+
+	.vspc .content {
+		width: 100%;
+		width: 1190px;
+		height: 5720px;
+		margin: 0 auto;
+		background-image: url(images/index_03.jpg);
+
+	}
+
+
+
+
+
+	/* ======= 第一區 七夕省很大 加碼30% ======== */
+
+
+	.vspc .content .box01 {
+		width: 1142px;
+		height: 357px;
+		left: 24px;
+		background-image: url(images/box01.png);
+
+
+	}
+
+	.vspc .content .box01 .content01 {
+		width: 268px;
+		height: 194px;
+		position: absolute;
+		top: 130px;
+		left: 16px;
+	}
+
+	.vspc .content .box01 .content02 {
+		width: 268px;
+		height: 194px;
+		position: absolute;
+		top: 130px;
+		left: 296px;
+	}
+
+	.vspc .content .box01 .content03 {
+		width: 268px;
+		height: 194px;
+		position: absolute;
+		top: 130px;
+		right: 297px;
+	}
+
+	.vspc .content .box01 .content04 {
+		width: 268px;
+		height: 194px;
+		position: absolute;
+		top: 130px;
+		right: 18px;
+	}
+
+
+
+
+
+	/* ===== 第二區 比起拿破崙 ====== */
+
+	.vspc .content .box02 {
+		width: 1159px;
+		height: 102px;
+		left: 16px;
+		top: 20px;
+		background-image: url(images/box02.png);
+	}
+
+	.vspc .content .box02 .btn_info {
+		width: 80px;
+		height: 34px;
+		position: absolute;
+		top: 35px;
+		right: 20px;
+	}
+
+	.vspc .content .box02 .content01 {
+		width: 570px;
+		height: 710px;
+		position: absolute;
+		top: 115px;
+		left: 8px;
+		z-index: 1;
+	}
+
+	.vspc .content .box02 .content02 {
+		width: 570px;
+		height: 710px;
+		position: absolute;
+		top: 115px;
+		right: 8px;
+		z-index: 1;
+	}
+
+	.vspc .content .box02 .content03 {
+		width: 570px;
+		height: 710px;
+		position: absolute;
+		top: 833px;
+		left: 8px;
+		z-index: 1;
+	}
+
+	.vspc .content .box02 .content04 {
+		width: 570px;
+		height: 710px;
+		position: absolute;
+		top: 833px;
+		right: 8px;
+		z-index: 1;
+	}
+
+	.vspc .content .box02 .content05 {
+		width: 570px;
+		height: 710px;
+		position: absolute;
+		top: 1550px;
+		left: 8px;
+		z-index: 1;
+	}
+
+	.vspc .content .box02 .content06 {
+		width: 570px;
+		height: 710px;
+		position: absolute;
+		top: 1550px;
+		right: 8px;
+		z-index: 1;
+	}
+
+
+
+/* ===== 按鈕 ====	 */
+
+	.vspc .content .box02 .btn_no{
+		display: block;
+		position: absolute;
+		width: 97px;
+		height: 97px;
+		top: 595px;
+		left: 337px;
+		z-index: 2;
+	}
+
+
+
+	.vspc .content .box02 .btn_yes{
+		display: block;
+		position: absolute;
+		width: 97px;
+		height: 97px;
+		background-image: url(images/btn_yes.png);
+		top: 595px;
+		left: 451px;
+		z-index: 2;
+	}
+
+	
+
+	.vspc .content .box02 .btn_like{
+		display: block;
+		position: absolute;
+		background-image: url("images/btn_like.png");
+		width: 191px;
+		height: 115px;
+		top: 75px;
+		left: 10px;
+		z-index: 2;
+		opacity: 0;
+		transition: opacity 0.5s;
+	}
+	.vspc .content .box02 .btn_like.active{
+		opacity: 1;
+	}
+
+
+
+
+	
+	.vspc .content .box02 .btn_no_1{
+		display: block;
+		position: absolute;
+		width: 97px;
+		height: 97px;
+		top: 595px;
+		left: 337px;
+		z-index: 2;
+	}
+
+
+
+	.vspc .content .box02 .btn_yes_1{
+		display: block;
+		position: absolute;
+		width: 97px;
+		height: 97px;
+		background-image: url(images/btn_yes.png);
+		top: 595px;
+		left: 451px;
+		z-index: 2;
+
+
+	}
+
+
+
+	.vspc .content .box02 .btn_like_1{
+		display: block;
+		position: absolute;
+		background-image: url("images/btn_like.png");
+		width: 191px;
+		height: 115px;
+		top: 75px;
+		left: 10px;
+		z-index: 2;
+		opacity: 0;
+		transition: opacity 0.5s;
+	}
+	.vspc .content .box02 .btn_like_1.active{
+		opacity: 1;
+	}
+
+
+
+
+	.vspc .content .box02 .btn_no_2{
+		display: block;
+		position: absolute;
+		width: 97px;
+		height: 97px;
+		top: 595px;
+		left: 337px;
+		z-index: 2;
+	}
+
+
+
+	.vspc .content .box02 .btn_yes_2{
+		display: block;
+		position: absolute;
+		width: 97px;
+		height: 97px;
+		background-image: url(images/btn_yes.png);
+		top: 595px;
+		left: 451px;
+		z-index: 2;
+
+
+	}
+
+
+
+	.vspc .content .box02 .btn_like_2{
+		display: block;
+		position: absolute;
+		background-image: url("images/btn_like.png");
+		width: 191px;
+		height: 115px;
+		top: 75px;
+		left: 10px;
+		z-index: 2;
+		opacity: 0;
+		transition: opacity 0.5s;
+	}
+	.vspc .content .box02 .btn_like_2.active{
+		opacity: 1;
+	}
+
+
+
+
+
+	.vspc .content .box02 .btn_no_3{
+		display: block;
+		position: absolute;
+		width: 97px;
+		height: 97px;
+		top: 595px;
+		left: 337px;
+		z-index: 2;
+	}
+
+
+
+	.vspc .content .box02 .btn_yes_3{
+		display: block;
+		position: absolute;
+		width: 97px;
+		height: 97px;
+		background-image: url(images/btn_yes.png);
+		top: 595px;
+		left: 451px;
+		z-index: 2;
+
+
+	}
+
+
+
+	.vspc .content .box02 .btn_like_3{
+		display: block;
+		position: absolute;
+		background-image: url("images/btn_like.png");
+		width: 191px;
+		height: 115px;
+		top: 75px;
+		left: 10px;
+		z-index: 2;
+		opacity: 0;
+		transition: opacity 0.5s;
+	}
+	.vspc .content .box02 .btn_like_3.active{
+		opacity: 1;
+	}
+
+
+	.vspc .content .box02 .btn_no_4{
+		display: block;
+		position: absolute;
+		width: 97px;
+		height: 97px;
+		top: 595px;
+		left: 337px;
+		z-index: 2;
+	}
+
+
+
+	.vspc .content .box02 .btn_yes_4{
+		display: block;
+		position: absolute;
+		width: 97px;
+		height: 97px;
+		background-image: url(images/btn_yes.png);
+		top: 595px;
+		left: 451px;
+		z-index: 2;
+
+
+	}
+
+
+
+	.vspc .content .box02 .btn_like_4{
+		display: block;
+		position: absolute;
+		background-image: url("images/btn_like.png");
+		width: 191px;
+		height: 115px;
+		top: 75px;
+		left: 10px;
+		z-index: 2;
+		opacity: 0;
+		transition: opacity 0.5s;
+	}
+	.vspc .content .box02 .btn_like_4.active{
+		opacity: 1;
+	}
+
+
+
+	.vspc .content .box02 .btn_no_5{
+		display: block;
+		position: absolute;
+		width: 97px;
+		height: 97px;
+		top: 595px;
+		left: 337px;
+		z-index: 2;
+	}
+
+
+
+	.vspc .content .box02 .btn_yes_5{
+		display: block;
+		position: absolute;
+		width: 97px;
+		height: 97px;
+		background-image: url(images/btn_yes.png);
+		top: 595px;
+		left: 451px;
+		z-index: 2;
+
+
+	}
+
+
+
+	.vspc .content .box02 .btn_like_5{
+		display: block;
+		position: absolute;
+		background-image: url("images/btn_like.png");
+		width: 191px;
+		height: 115px;
+		top: 75px;
+		left: 10px;
+		z-index: 2;
+		opacity: 0;
+		transition: opacity 0.5s;
+	}
+	.vspc .content .box02 .btn_like_5.active{
+		opacity: 1;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* ====== 第三區 就能脫單 ====== */
+
+	.vspc .content .box03 {
+		width: 1180px;
+		height: 441px;
+		top: 2200px;
+		left: 6px;
+		background-image: url(images/box03.png);
+	}
+
+
+	.vspc .content .box03 .content01 {
+		width: 331px;
+		height: 303px;
+		position: absolute;
+		top: 117px;
+		left: 9px;
+	}
+
+	.vspc .content .box03 .content02 {
+		width: 318px;
+		height: 303px;
+		position: absolute;
+		top: 117px;
+		left: 353px;
+	}
+
+
+	.vspc .content .box03 .content03 {
+		width: 250px;
+		height: 269px;
+		position: absolute;
+		top: 133px;
+		left: 686px;
+	}
+
+
+	.vspc .content .box03 .content04 {
+		width: 201px;
+		height: 211px;
+		position: absolute;
+		top: 191px;
+		right: 24px;
+	}
+
+
+
+
+	/* ====== 第四區 七夕獨家快閃 ======= */
+
+	.vspc .content .box04 {
+		width: 1244px;
+		height: 860px;
+		left: -26px;
+		top: 2166px;
+		background-image: url(images/box04.png);
+	}
+
+
+	.vspc .content .box04 .btn_info01 {
+		width: 80px;
+		height: 34px;
+		position: absolute;
+		top: 98px;
+		right: 232px;
+	}
+
+
+
+
+	.vspc .content .box04 .content01 {
+		width: 272px;
+		height: 611px;
+		position: absolute;
+		top: 220px;
+		left: 56px;
+	}
+
+	.vspc .content .box04 .content02 {
+		width: 272px;
+		height: 611px;
+		position: absolute;
+		top: 220px;
+		left: 344px;
+	}
+
+	.vspc .content .box04 .content03 {
+		width: 276px;
+		height: 611px;
+		position: absolute;
+		top: 220px;
+		right: 336px;
+	}
+
+	.vspc .content .box04 .content04 {
+		width: 272px;
+		height: 611px;
+		position: absolute;
+		top: 220px;
+		right: 54px;
+	}
+
+
+
+
+/* ===== 第五區 愛大牌 ===== */
+
+	.vspc .content .box05{
+		width: 1180px;
+		height: 1737px;
+		left: 7px;
+		top: 2188px;
+		background-image: url(images/box05.png);
+	}
+
+
+
+	.vspc .content .box05 .btn_info02 {
+		width: 80px;
+		height: 34px;
+		position: absolute;
+		top: 33px;
+		right: 60px;
+	}
+
+
+
+	.vspc .content .box05 .content01 {
+		width: 1137px;
+		height: 389px;
+		position: absolute;
+		top: 115px;
+		left: 21px;
+	}
+
+	.vspc .content .box05 .content02 {
+		width: 1137px;
+		height: 389px;
+		position: absolute;
+		top: 518px;
+		left: 21px;
+	}
+
+	.vspc .content .box05 .content03 {
+		width: 1137px;
+		height: 389px;
+		position: absolute;
+		top: 921px;
+		left: 21px;
+	}
+
+	.vspc .content .box05 .content04 {
+		width: 1137px;
+		height: 389px;
+		position: absolute;
+		bottom: 24px;
+		left: 21px;
+	}
+
+
+
+
+
+
+
+
+
+	/* ------彈跳視窗開始------ */
+
+	.lightbox-target {
+		position: fixed;
+		top: -100%;
+		width: 100%;
+		max-width: 100%;
+		background: rgba(0, 0, 0, 0.7);
+		opacity: 0;
+		-moz-transition: opacity 0.5s ease-in-out;
+		-o-transition: opacity 0.5s ease-in-out;
+		-webkit-transition: opacity 0.5s ease-in-out;
+		transition: opacity 0.5s ease-in-out;
+		overflow: hidden;
+		z-index: 999;
+	}
+
+
+	.content_w h3 {
+		margin: 0;
+		padding: 0;
+		/* height:3rem;  */
+		width: 100%;
+		font-size: 1.25rem;
+		font-weight: 800;
+		line-height: 3rem;
+		text-align: center;
+		color: #fff;
+		background-color: #ff7f00;
+		font: bold 25px/55px "微軟正黑體", "Microsoft JhengHei", Arial, Helvetica;
+		text-decoration: none;
+	}
+
+
+	.content_w h3 span.lightbox-close {
+		position: absolute;
+		top: 10px;
+		right: 6px;
+		display: block;
+		border: 2px solid #fff;
+		border-radius: 5px;
+		width: 63px;
+		height: 33px;
+		font-size: 1rem;
+		line-height: 2rem;
+		text-align: center;
+		/* text-decoration:none; */
+	}
+
+
+
+
+
+	.content_w h3 span.close a {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		color: #333;
+		/* text-decoration:none; */
+	}
+
+
+	.lightbox-target .content_w {
+		width: 50%;
+		height: 50%;
+		border-radius: 10px;
+		overflow: hidden;
+		/*overflow-y:auto; 
+		background: #fff;
+		color: #333;*/
+		margin: auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		max-height: 0%;
+		max-width: 0%;
+		/* border: 3px solid #fff; */
+		-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+		box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+		box-sizing: border-box;
+		-moz-transition: ease-in-out 0.5s;
+		-o-transition: ease-in-out 0.5s;
+		-webkit-transition: ease-in-out 0.5s;
+		transition: ease-in-out 0.5s;
+		z-index: 999;
+	}
+
+
+
+
+
+	.lightbox-target .content_w_1 {
+		width: 40%;
+		height: 25%;
+		border-radius: 10px;
+		overflow: hidden;
+		/*overflow-y:auto; 
+		background: #fff;
+		color: #333;*/
+		margin: auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		max-height: 0%;
+		max-width: 0%;
+		/* border: 3px solid #fff; */
+		-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+		box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+		box-sizing: border-box;
+		-moz-transition: ease-in-out 0.5s;
+		-o-transition: ease-in-out 0.5s;
+		-webkit-transition: ease-in-out 0.5s;
+		transition: ease-in-out 0.5s;
+		z-index: 999;
+	}
+
+
+
+
+	.lightbox-target .content_w_2 {
+		width: 40%;
+		height: 25%;
+		border-radius: 10px;
+		overflow: hidden;
+		/*overflow-y:auto; 
+		background: #fff;
+		color: #333;*/
+		margin: auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		max-height: 0%;
+		max-width: 0%;
+		/* border: 3px solid #fff; */
+		-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+		box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+		box-sizing: border-box;
+		-moz-transition: ease-in-out 0.5s;
+		-o-transition: ease-in-out 0.5s;
+		-webkit-transition: ease-in-out 0.5s;
+		transition: ease-in-out 0.5s;
+		z-index: 999;
+	}
+
+
+
+
+	.lightbox-target .content_w .wold01 {
+		width: 100%;
+		height: 100%;
+		overflow-x: hidden;
+		overflow-y: auto;
+		background: #fff;
+		/* color: #333; */
+		margin: auto;
+		padding: 0 10px 0 13.5px;
+		position: absolute;
+		box-sizing: border-box;
+		/* top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0; 
+		max-height: 0%;
+		max-width: 0%;*/
+		/* border: 3px solid #fff; */
+		/* font: bold 14px/48px "微軟正黑體","Microsoft JhengHei", Arial, Helvetica; 
+		text-decoration: none; */
+	}
+
+
+
+
+	.lightbox-target .content_w_1 .wold02 {
+		width: 100%;
+		height: 100%;
+		overflow-x: hidden;
+		overflow-y: auto;
+		background: #fff;
+		/* color: #333; */
+		margin: auto;
+		padding: 0 10px 0 13.5px;
+		position: absolute;
+		box-sizing: border-box;
+		/* top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0; 
+		max-height: 0%;
+		max-width: 0%;*/
+		/* border: 3px solid #fff; */
+		/* font: bold 14px/48px "微軟正黑體","Microsoft JhengHei", Arial, Helvetica; 
+		text-decoration: none; */
+	}
+
+
+	.lightbox-target .content_w_2 .wold03 {
+		width: 100%;
+		height: 100%;
+		overflow-x: hidden;
+		overflow-y: auto;
+		background: #fff;
+		/* color: #333; */
+		margin: auto;
+		padding: 0 10px 0 13.5px;
+		position: absolute;
+		box-sizing: border-box;
+		/* top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0; 
+		max-height: 0%;
+		max-width: 0%;*/
+		/* border: 3px solid #fff; */
+		/* font: bold 14px/48px "微軟正黑體","Microsoft JhengHei", Arial, Helvetica; 
+		text-decoration: none; */
+	}
+
+
+
+
+
+	.lightbox-target .content_w .wold01 ol {
+		width: 90%;
+		color: #333;
+		margin: auto;
+		position: relative;
+		text-align: left;
+		font: bold 16px/36px "微軟正黑體", "Microsoft JhengHei", Arial, Helvetica;
+		text-decoration: none;
+	}
+
+
+
+
+	.lightbox-target .content_w_1 .wold02 ol {
+		width: 90%;
+		color: #333;
+		margin: auto;
+		position: relative;
+		text-align: left;
+		font: bold 16px/36px "微軟正黑體", "Microsoft JhengHei", Arial, Helvetica;
+		text-decoration: none;
+	}
+
+
+
+	.lightbox-target .content_w_2 .wold03 ol {
+		width: 90%;
+		color: #333;
+		margin: auto;
+		position: relative;
+		text-align: left;
+		font: bold 16px/36px "微軟正黑體", "Microsoft JhengHei", Arial, Helvetica;
+		text-decoration: none;
+	}
+
+
+
+
+
+
+
+	/* .lightbox-target .content_w .wold01 li {
+        width: 90%;
+        color: #333;
+        margin: auto%;
+        position: relative;
+        text-align: left;
+        font: bold 16px/36px "微軟正黑體", "Microsoft JhengHei", Arial, Helvetica;
+        text-decoration: none;
+    }
+ */
+
+
+	.lightbox-target .content_w .wold01 p {
+		width: 90%;
+		color: #333;
+		/* top: 5%; */
+		left: -2%;
+		margin: auto;
+		position: relative;
+		text-align: left;
+		font: bold 16px/36px "微軟正黑體", "Microsoft JhengHei", Arial, Helvetica;
+		text-decoration: none;
+	}
+
+
+
+
+	.lightbox-target .content_w_1 .wold02 p {
+		width: 90%;
+		color: #333;
+		/* top: 5%; */
+		left: -2%;
+		margin: auto;
+		position: relative;
+		text-align: left;
+		font: bold 16px/36px "微軟正黑體", "Microsoft JhengHei", Arial, Helvetica;
+		text-decoration: none;
+	}
+
+
+
+
+	.lightbox-target .content_w_2 .wold03 p {
+		width: 90%;
+		color: #333;
+		/* top: 5%; */
+		left: -2%;
+		margin: auto;
+		position: relative;
+		text-align: left;
+		font: bold 16px/36px "微軟正黑體", "Microsoft JhengHei", Arial, Helvetica;
+		text-decoration: none;
+	}
+
+
+
+
+
+	.lightbox-target .content_w .wold01 span {
+		color: rgb(190, 90, 90);
+		font-size: 16px;
+	}
+
+	.lightbox-target .content_w .wold01 a {
+		color: #e45d2d;
+		font-size: 16px;
+		text-decoration: none;
+	}
+
+
+
+	.lightbox-target .content_w_1 .wold02 span {
+		color: rgb(190, 90, 90);
+		font-size: 16px;
+	}
+
+	.lightbox-target .content_w_1 .wold02 a {
+		color: #e45d2d;
+		font-size: 16px;
+		text-decoration: none;
+	}
+
+
+
+	.lightbox-target .content_w_2 .wold03 span {
+		color: rgb(190, 90, 90);
+		font-size: 16px;
+	}
+
+	.lightbox-target .content_w_2 .wold03 a {
+		color: #e45d2d;
+		font-size: 16px;
+		text-decoration: none;
+	}
+
+
+
+	.lightbox-target img {
+		margin: auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		max-height: 0%;
+		max-width: 0%;
+		border: 3px solid #fff;
+		-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+		box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+		box-sizing: border-box;
+		-moz-transition: ease-in-out 0.5s;
+		-o-transition: ease-in-out 0.5s;
+		-webkit-transition: ease-in-out 0.5s;
+		transition: ease-in-out 0.5s;
+	}
+
+	.lightbox-target:target {
+		opacity: 1;
+		top: 0;
+		bottom: 0;
+	}
+
+	.lightbox-target:target .content_w,
+	.lightbox-target:target img {
+		max-height: 100%;
+		max-width: 100%;
+	}
+
+
+
+
+
+	/* ------彈跳視窗結束------ */
+
+
+
+
+	.vspc .pc,
+	.vspc .mob {
+		/* margin: 0 auto; */
+	}
+
+	.vspc .pc {}
+
+	.vspc .pc a {
+		transition: all .5s;
+		z-index: 100;
+	}
+
+	.vspc .pc a:hover {
+		transform: scale(0.98);
+		z-index: 100;
+	}
+
+	.vspc .mob {
+		display: none;
+	}
+
+
+
+
+
+	/* =============================================================================================================
+..................................................mobile_區塊....................................................
+==============================================================================================================*/
+
+	@media screen and (max-width: 640px) {
+
+		/*-------------------------*/
+		/* 基礎設定_樣式
+---------------------------*/
+
+		html,
+		body {
+			min-width: 0px;
+			/* 必寫!!!*/
+
+		}
+
+		.vspc_bg {
+			max-width: 768px;
+			min-width: 0px;
+			/* 必寫!!!*/
+			background: #041133;
+			background-image: none;
+			background-repeat: no-repeat;
+			background-position: center top;
+		}
+
+		/*-------------------------*/
+		/* mobile區塊_樣式
+---------------------------*/
+
+		.vspc .main,
+		.vspc .mob,
+		.vspc .mob a,
+		.vspc .mob a img {
+			display: block;
+			width: 100%;
+			height: auto;
+			min-height: 0px;
+		}
+
+		/* 視覺左上角活動LOGO_樣式
+---------------------------*/
+
+
+		.udnLOGO {
+			width: calc(140/640*100%);
+			left: 4%;
+			top: 1%;
+		}
+
+		.udnLOGO span {}
+
+		/* 背景動態_樣式
+---------------------------*/
+
+		.vspc .main .mob_logo,
+		.vspc .main .mob_T01 {
+			display: block;
+		}
+
+
+
+
+
+
+
+		.vspc .mob .btn_yes{
+		display: block;
+		position: absolute;
+		width: 12%;
+		height: 12%;
+		background-image: url(images/btn_yes.png);
+		top: 73%;
+    	left: 26%;
+		z-index: 2;
+	}
+
+	
+
+	.vspc .mob .btn_like{
+		display: block;
+		position: absolute;
+		background-image: url("images/btn_like.png");
+		width: 21%;
+		height: 14%;
+		top: 10%;
+		left: 0%;
+		z-index: 2;
+		opacity: 0;
+		transition: opacity 0.5s;
+	}
+	.vspc .mob .btn_like.active{
+		opacity: 1;
+	}
+
+
+
+
+	
+	.vspc .mob .btn_no{
+		display: block;
+		position: absolute;
+		width: 12%;
+		height: 12%;
+		top: 73%;
+		left: 12%;
+		z-index: 2;
+	}
+
+
+
+
+	.vspc .mob .btn_yes_1{
+		display: block;
+		position: absolute;
+		width: 12%;
+		height: 12%;
+		background-image: url(images/btn_yes.png);
+		top: 73%;
+		right: 12%;
+		z-index: 2;
+	}
+
+	
+
+	.vspc .mob .btn_like_1{
+		display: block;
+		position: absolute;
+		background-image: url("images/btn_like.png");
+		width: 21%;
+		height: 14%;
+		top: 10%;
+		right: 27%;
+		z-index: 2;
+		opacity: 0;
+		transition: opacity 0.5s;
+	}
+	.vspc .mob .btn_like_1.active{
+		opacity: 1;
+	}
+
+
+
+
+	
+	.vspc .mob .btn_no_1{
+		display: block;
+		position: absolute;
+		width: 12%;
+		height: 12%;
+		top: 73%;
+		right: 26%;
+		z-index: 2;
+	}
+
+
+
+	.vspc .mob .btn_yes_2{
+		display: block;
+		position: absolute;
+		width: 12%;
+		height: 12%;
+		background-image: url(images/btn_yes.png);
+		top: 73%;
+		right: 12%;
+		z-index: 2;
+	}
+
+	
+
+	.vspc .mob .btn_like_2{
+		display: block;
+		position: absolute;
+		background-image: url("images/btn_like.png");
+		width: 21%;
+		height: 14%;
+		top: 10%;
+		right: 27%;
+		z-index: 2;
+		opacity: 0;
+		transition: opacity 0.5s;
+	}
+	.vspc .mob .btn_like_2.active{
+		opacity: 1;
+	}
+
+
+
+
+	
+	.vspc .mob .btn_no_2{
+		display: block;
+		position: absolute;
+		width: 12%;
+		height: 12%;
+		top: 73%;
+		right: 26%;
+		z-index: 2;
+	}
+
+
+
+
+	.vspc .mob .btn_yes_3{
+		display: block;
+		position: absolute;
+		width: 12%;
+		height: 12%;
+		background-image: url(images/btn_yes.png);
+		top: 73%;
+    	left: 26%;
+		z-index: 2;
+	}
+
+	
+
+	.vspc .mob .btn_like_3{
+		display: block;
+		position: absolute;
+		background-image: url("images/btn_like.png");
+		width: 21%;
+		height: 14%;
+		top: 10%;
+		left: 0%;
+		z-index: 2;
+		opacity: 0;
+		transition: opacity 0.5s;
+	}
+	.vspc .mob .btn_like_3.active{
+		opacity: 1;
+	}
+
+
+
+
+	
+	.vspc .mob .btn_no_3{
+		display: block;
+		position: absolute;
+		width: 12%;
+		height: 12%;
+		top: 73%;
+		left: 12%;
+		z-index: 2;
+	}
+
+
+
+
+	.vspc .mob .btn_yes_4{
+		display: block;
+		position: absolute;
+		width: 12%;
+		height: 12%;
+		background-image: url(images/btn_yes.png);
+		top: 73%;
+    	left: 26%;
+		z-index: 2;
+	}
+
+	
+
+	.vspc .mob .btn_like_4{
+		display: block;
+		position: absolute;
+		background-image: url("images/btn_like.png");
+		width: 21%;
+		height: 14%;
+		top: 10%;
+		left: 0%;
+		z-index: 2;
+		opacity: 0;
+		transition: opacity 0.5s;
+	}
+	.vspc .mob .btn_like_4.active{
+		opacity: 1;
+	}
+
+
+
+
+	
+	.vspc .mob .btn_no_4{
+		display: block;
+		position: absolute;
+		width: 12%;
+		height: 12%;
+		top: 73%;
+		left: 12%;
+		z-index: 2;
+	}
+
+
+
+
+	.vspc .mob .btn_yes_5{
+		display: block;
+		position: absolute;
+		width: 12%;
+		height: 12%;
+		background-image: url(images/btn_yes.png);
+		top: 73%;
+		right: 12%;
+		z-index: 2;
+	}
+
+	
+
+	.vspc .mob .btn_like_5{
+		display: block;
+		position: absolute;
+		background-image: url("images/btn_like.png");
+		width: 21%;
+		height: 14%;
+		top: 10%;
+		right: 27%;
+		z-index: 2;
+		opacity: 0;
+		transition: opacity 0.5s;
+	}
+	.vspc .mob .btn_like_5.active{
+		opacity: 1;
+	}
+
+
+
+
+	
+	.vspc .mob .btn_no_5{
+		display: block;
+		position: absolute;
+		width: 12%;
+		height: 12%;
+		top: 73%;
+		right: 26%;
+		z-index: 2;
+	}
+
+
+
+
+
+
+		/* ------彈跳視窗開始------ */
+
+		.lightbox-target {
+			position: fixed;
+			top: -100%;
+			width: 100%;
+			max-width: 100%;
+			background: rgba(0, 0, 0, 0.7);
+			opacity: 0;
+			-moz-transition: opacity 0.5s ease-in-out;
+			-o-transition: opacity 0.5s ease-in-out;
+			-webkit-transition: opacity 0.5s ease-in-out;
+			transition: opacity 0.5s ease-in-out;
+			overflow: hidden;
+			z-index: 999;
+		}
+
+
+		.content_w h3 {
+			margin: 0;
+			padding: 0;
+			/* height:3rem;  */
+			width: 100%;
+			font-size: 1.25rem;
+			font-weight: 800;
+			line-height: 3rem;
+			text-align: center;
+			color: #fff;
+			background-color: #ff7f00;
+			font: bold 25px/55px "微軟正黑體", "Microsoft JhengHei", Arial, Helvetica;
+			text-decoration: none;
+		}
+
+
+		.content_w h3 span.lightbox-close {
+			position: absolute;
+			top: 10px;
+			right: 6px;
+			display: block;
+			border: 2px solid #fff;
+			border-radius: 5px;
+			width: 63px;
+			height: 33px;
+			font-size: 1rem;
+			line-height: 2rem;
+			text-align: center;
+			/* text-decoration:none; */
+		}
+
+
+		.content_w h3 span.lightbox-close_1 {
+			position: absolute;
+			top: 10px;
+			right: 6px;
+			display: block;
+			border: 2px solid #fff;
+			border-radius: 5px;
+			width: 63px;
+			height: 33px;
+			font-size: 1rem;
+			line-height: 2rem;
+			text-align: center;
+			/* text-decoration:none; */
+		}
+
+
+
+		.content_w h3 span.close a {
+			display: inline-block;
+			width: 100%;
+			height: 100%;
+			color: #fff;
+			/* text-decoration:none; */
+		}
+
+
+		.lightbox-target .content_w {
+			width: 90%;
+			height: 60%;
+			border-radius: 10px;
+			overflow: hidden;
+			/*overflow-y:auto; 
+		background: #fff;
+		color: #333;*/
+			margin: auto;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			max-height: 0%;
+			max-width: 0%;
+			/* border: 3px solid #fff; */
+			-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			box-sizing: border-box;
+			-moz-transition: ease-in-out 0.5s;
+			-o-transition: ease-in-out 0.5s;
+			-webkit-transition: ease-in-out 0.5s;
+			transition: ease-in-out 0.5s;
+			z-index: 999;
+		}
+
+
+		.lightbox-target .content_w_1 {
+			width: 90%;
+			height: 60%;
+			border-radius: 10px;
+			overflow: hidden;
+			/*overflow-y:auto; 
+		background: #fff;
+		color: #333;*/
+			margin: auto;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			max-height: 0%;
+			max-width: 0%;
+			/* border: 3px solid #fff; */
+			-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			box-sizing: border-box;
+			-moz-transition: ease-in-out 0.5s;
+			-o-transition: ease-in-out 0.5s;
+			-webkit-transition: ease-in-out 0.5s;
+			transition: ease-in-out 0.5s;
+			z-index: 999;
+		}
+
+
+
+		.lightbox-target .content_w_2 {
+			width: 90%;
+			height: 60%;
+			border-radius: 10px;
+			overflow: hidden;
+			/*overflow-y:auto; 
+		background: #fff;
+		color: #333;*/
+			margin: auto;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			max-height: 0%;
+			max-width: 0%;
+			/* border: 3px solid #fff; */
+			-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			box-sizing: border-box;
+			-moz-transition: ease-in-out 0.5s;
+			-o-transition: ease-in-out 0.5s;
+			-webkit-transition: ease-in-out 0.5s;
+			transition: ease-in-out 0.5s;
+			z-index: 999;
+		}
+
+
+
+
+		.lightbox-target .content_w .wold01 {
+			width: 100%;
+			height: 100%;
+			overflow-x: hidden;
+			overflow-y: auto;
+			background: #fff;
+			/* color: #333; */
+			margin: auto;
+			padding: 0 10px 0 13.5px;
+			position: absolute;
+			box-sizing: border-box;
+			/* top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0; 
+		max-height: 0%;
+		max-width: 0%;*/
+			/* border: 3px solid #fff; */
+			/* font: bold 14px/48px "微軟正黑體","Microsoft JhengHei", Arial, Helvetica; 
+		text-decoration: none; */
+		}
+
+
+
+		.lightbox-target .content_w_1 .wold02 {
+			width: 100%;
+			height: 100%;
+			overflow-x: hidden;
+			overflow-y: auto;
+			background: #fff;
+			/* color: #333; */
+			margin: auto;
+			padding: 0 10px 0 13.5px;
+			position: absolute;
+			box-sizing: border-box;
+			/* top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0; 
+		max-height: 0%;
+		max-width: 0%;*/
+			/* border: 3px solid #fff; */
+			/* font: bold 14px/48px "微軟正黑體","Microsoft JhengHei", Arial, Helvetica; 
+		text-decoration: none; */
+		}
+
+
+
+
+		.lightbox-target .content_w_2 .wold03 {
+			width: 100%;
+			height: 100%;
+			overflow-x: hidden;
+			overflow-y: auto;
+			background: #fff;
+			/* color: #333; */
+			margin: auto;
+			padding: 0 10px 0 13.5px;
+			position: absolute;
+			box-sizing: border-box;
+			/* top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0; 
+		max-height: 0%;
+		max-width: 0%;*/
+			/* border: 3px solid #fff; */
+			/* font: bold 14px/48px "微軟正黑體","Microsoft JhengHei", Arial, Helvetica; 
+		text-decoration: none; */
+		}
+
+
+
+
+
+
+
+		.lightbox-target .content_w .wold01 ol {
+			width: 90%;
+			color: #333;
+			margin: auto;
+			position: relative;
+			text-align: left;
+			font: bold 16px/36px "微軟正黑體", "Microsoft JhengHei", Arial, Helvetica;
+			text-decoration: none;
+		}
+
+
+
+		/* .lightbox-target .content_w .wold01 li {
+        width: 90%;
+        color: #333;
+        margin: auto%;
+        position: relative;
+        text-align: left;
+        font: bold 16px/36px "微軟正黑體", "Microsoft JhengHei", Arial, Helvetica;
+        text-decoration: none;
+    }
+ */
+
+
+		.lightbox-target .content_w .wold01 p {
+			width: 90%;
+			color: #333;
+			/* top: 5%; */
+			left: -2%;
+			margin: auto;
+			position: relative;
+			text-align: left;
+			font: bold 16px/36px "微軟正黑體", "Microsoft JhengHei", Arial, Helvetica;
+			text-decoration: none;
+		}
+
+
+
+		.lightbox-target .content_w_1 .wold02 p {
+			width: 90%;
+			color: #333;
+			/* top: 5%; */
+			left: -2%;
+			margin: auto;
+			position: relative;
+			text-align: left;
+			font: bold 16px/36px "微軟正黑體", "Microsoft JhengHei", Arial, Helvetica;
+			text-decoration: none;
+		}
+
+
+
+
+		.lightbox-target .content_w_2 .wold03 p {
+			width: 90%;
+			color: #333;
+			/* top: 5%; */
+			left: -2%;
+			margin: auto;
+			position: relative;
+			text-align: left;
+			font: bold 16px/36px "微軟正黑體", "Microsoft JhengHei", Arial, Helvetica;
+			text-decoration: none;
+		}
+
+
+
+
+
+		.lightbox-target .content_w .wold01 span {
+			color: rgb(190, 90, 90);
+			font-size: 16px;
+		}
+
+		.lightbox-target .content_w .wold01 a {
+			color: #e45d2d;
+			font-size: 16px;
+			text-decoration: none;
+		}
+
+
+
+		.lightbox-target .content_w_1 .wold02 span {
+			color: rgb(190, 90, 90);
+			font-size: 16px;
+		}
+
+		.lightbox-target .content_w_1 .wold02 a {
+			color: #e45d2d;
+			font-size: 16px;
+			text-decoration: none;
+		}
+
+
+
+		.lightbox-target .content_w_2 .wold03 span {
+			color: rgb(190, 90, 90);
+			font-size: 16px;
+		}
+
+		.lightbox-target .content_w_2 .wold03 a {
+			color: #e45d2d;
+			font-size: 16px;
+			text-decoration: none;
+		}
+
+
+
+		.lightbox-target img {
+			margin: auto;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			max-height: 0%;
+			max-width: 0%;
+			border: 3px solid #fff;
+			-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			box-sizing: border-box;
+			-moz-transition: ease-in-out 0.5s;
+			-o-transition: ease-in-out 0.5s;
+			-webkit-transition: ease-in-out 0.5s;
+			transition: ease-in-out 0.5s;
+		}
+
+		.lightbox-target:target {
+			opacity: 1;
+			top: 0;
+			bottom: 0;
+		}
+
+		.lightbox-target:target .content_w,
+		.lightbox-target:target img {
+			max-height: 100%;
+			max-width: 100%;
+		}
+
+
+
+		/* .lightbox-target img {
+			margin: auto;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			max-height: 0%;
+			max-width: 0%;			
+			-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+			box-sizing: border-box;
+			-moz-transition: ease-in-out 0.5s;
+			-o-transition: ease-in-out 0.5s;
+			-webkit-transition: ease-in-out 0.5s;
+			transition: ease-in-out 0.5s;
+		} */
+
+		/* ------彈跳視窗結束------ */
+
+
+
+
+
+
+
+
+
+
+		/*-------------------------*/
+		/* pc + mob 商品區塊_樣式
+---------------------------*/
+		.vspc .mob {
+			display: block;
+			width: 100%;
+			max-width: 640px;
+			margin: 0 auto;
+		}
+
+
+
+		.mob640 {
+			display: flex;
+			width: 100%;
+			max-width: 640px;
+			margin: 0;
+			padding: 0;
+		}
+
+
+
+		/*-------------------------*/
+		/* 主打品輪播
+---------------------------*/
+
+		.vspc .main .S_Pro {
+			display: block;
+			width: 100%;
+			height: auto;
+			margin: 0;
+			left: 0%;
+			top: 32%;
+			background-position: center top;
+
+		}
+
+		.vspc .main .S_Pro .MPro {
+			display: block;
+		}
+
+
+
+
+
+		/*-------------------------*/
+		/* mobile區塊_消失樣式
+---------------------------*/
+
+
+		.vspc .main .T01,
+		.vspc .main .PU,
+		.vspc .main .udn_logo,
+		.vspc .main .PCPro,
+		.vspc .content {
+			display: none;
+		}
+
+
+
+	}
+</style>
+
+
+
+<!-- <script src="https://img.udn.com/art/js_temp/jquery.2.2.4.min.js?v005"></script> -->
+<!-- JQ主程式 -->
+<script src="https://img.udn.com/art/js_temp/eplogo.js"></script>
+
+
+<!-- 滾動視差外掛 -->
+<!-- <script src="https://img.udn.com/art/js_temp/rellax.js?v005"></script>
+	<script>
+		$(function () {
+			var rellax = new Rellax('.rellax_bg');
+		});
+	</script>  -->
+
+<!-- 滾動視差外掛 -->
+
+<!-- imageMap RWD開始 -->
+<script src="https://mattstow.com/experiment/responsive-image-maps/jquery.rwdImageMaps.min.js?v005"></script>
+<script>
+	$(function () {
+		$('img[usemap]').rwdImageMaps();
+	});
+</script>
+<!-- imageMap RWD結束 -->
+
+
+
+
+<script src="https://img.udn.com/art/js_temp/wow.min.js?v005"></script>
+<script>
+	new WOW().init();
+</script>
+
+
+
+
+
+
+
+<!-- 滾動語法錨點 -->
+<a id="PageTop" name="PageTop"></a>
+
+<div class="vspc_bg">
+
+
+	<div class="lightbox-target" id="noticeA">
+		<div class="content_w">
+			<h3>活動詳情<span class="lightbox-close"><a href="#q01-top">X 關閉</a></span></h3>
+			<div class="wold01">
+
+				<p>活動辦法</p>
+				<ol style="list-style-type: none ">
+					<li><span class="ogc">8/16(日) 00:00-8/31(一)23:59</span>期間，<span
+							class="ogc">首次透過LINE購物於udn買東西消費</span>實付金額(排除禮券)滿1元(含)以上且無取消退貨，即可獲得
+						<span class="ogc">LINE POINTS 100點</span>(限量500名)。每一會員限得乙次，數量有限，贈完為止。</li>
+				</ol>
+
+				<br>
+
+				<p>注意事項:</p>
+				<ol style="list-style-type: decimal; ">
+					<li>新客首購的定義為該帳號未曾透過LINE購物於udn買東西完成消費，且單筆訂單實付金額(排除禮券)滿1(含)元以上之用戶才符合此次活動資格。新客首購活動結束後45天發點發送至符合資格的LINE購物帳戶中。
+					</li>
+					<li>購買預購商品無法參與此活動。</li>
+				</ol>
+
+				<br>
+				<br>
+				<br>
+				<br>
+
+
+			</div>
+		</div>
+		<!-- <a class="lightbox-close" href="#"></a> -->
+	</div>
+
+
+
+	<div class="lightbox-target" id="noticeB">
+		<div class="content_w content_w_1">
+			<h3>活動詳情<span class="lightbox-close"><a href="#q01-top">X 關閉</a></span></h3>
+			<div class="wold02">
+
+				<p>活動辦法</p>
+				<ol style="list-style-type: none ">
+					<li><span class="ogc">8/25(二) 00:00-23:59</span> 一日限定，透過LINE購物於<span class="ogc">全站消費任意商品</span>，即可享有
+						<span class="ogc">LINE POINTS 10%回饋(上限100點)</span>。點數將於收貨日30天後發送至符合資格的LINE購物帳戶中。</li>
+				</ol>
+
+				<br>
+				<br>
+				<br>
+
+			</div>
+		</div>
+		<!-- <a class="lightbox-close" href="#"></a> -->
+	</div>
+
+
+
+	<div class="lightbox-target" id="noticeC">
+		<div class="content_w content_w_2">
+			<h3>活動詳情<span class="lightbox-close"><a href="#q01-top">X 關閉</a></span></h3>
+			<div class="wold03">
+
+				<p>活動辦法</p>
+				<ol style="list-style-type: none ">
+					<li><span class="ogc">9/30(三)</span> 以前，透過LINE Pay並選擇使用「LINE Pay Money(原一卡通帳戶)」付款，筆筆消費享<span class="ogc">LINE POINTS 5%</span>點數回饋(上限100點)！每月
+						<span class="ogc">17號</span>再享<span class="ogc">LINE POINTS 12%</span>點數回饋(上限200點，當日限回饋3次)！</li>
+				</ol>
+
+				<br>
+				<br>
+				<br>
+
+			</div>
+		</div>
+		<!-- <a class="lightbox-close" href="#"></a> -->
+	</div>
+
+
+
+
+	<!-- 主視覺開始 -------------------------------------------------->
+	<div class="vspc">
+
+		<!-- 版頭區塊_main_start -->
+		<div class="main">
+			<div class="T01 animate__animated animate__fadeInDown">
+				<img src="images/tilte.png" alt="七夕脫單攻略">
+			</div>
+
+			<div class="T01_1 animate__animated animate__fadeInDown">
+				<img src="images/tilte_1.png" class="bounce" alt="愛心">
+			</div>
+
+			<div class="T01_2 animate__animated animate__fadeInDown">
+				<img src="images/tilte_2.png" class="swing" alt="笑臉">
+			</div>
+
+			<div class="udn_logo ">
+				<a href="https://shopping.udn.com/mall/Cc1a00.do" target="_blank" rel="noreferrer noopener">
+					<img src="images/logo.png" alt="udn買東西瘋加碼品牌週">
+				</a>
+			</div>
+
+			<div class="icon_0825">
+				<a href="#noticeC">
+					<img src="images/0817_icon.png" alt="0817 LINE PAY 17%">
+				</a>
+			</div>
+
+
+			<div class="mob">
+				<a href="https://shopping.udn.com/mall/Cc1a00.do" target="_blank" rel="noreferrer noopener">
+					<img src="images/moblie/moblie_01.jpg" alt="udn買東西瘋加碼品牌週">
+				</a>
+			</div>
+
+			<div class="mob">
+				<a href="#noticeC">
+					<img src="images/moblie/moblie_0817.jpg" alt="七夕脫單攻略">
+				</a>
+			</div>
+
+
+
+			<!-- 鋪底 -->
+			<div class="PU">
+
+				<div class="pu01 btnA">
+					<a href="javascript:void(0)" id="track01">
+						<img src="images/pu01.png" alt="最高加碼30%">
+					</a>
+				</div>
+
+				<div class="pu02 btnA">
+					<a href="javascript:;" id="track02">
+						<img src="images/pu02.png" alt="無上限 10%">
+					</a>
+				</div>
+
+				<div class="pu03 btnA page-end">
+					<a href="#noticeA">
+						<img src="images/pu03.png" alt="新客首購 100P">
+					</a>
+				</div>
+				<div class="pu04">
+
+					<div class="logo01 btnA">
+						<a href="javascript:;" id="track04">
+							<img src="images/pu04_logo01.png" alt="HYDY">
+						</a>
+					</div>
+
+					<div class="logo02 btnA">
+						<a href="javascript:;" id="track05">
+							<img src="images/pu04_logo02.png" alt="PALLADIUM">
+						</a>
+					</div>
+
+					<div class="logo03 btnA">
+						<a href="javascript:;" id="track06">
+							<img src="images/pu04_logo03.png" alt="OSIM">
+						</a>
+					</div>
+
+					<div class="logo04 btnA">
+						<a href="javascript:;" id="track07">
+							<img src="images/pu04_logo04.png" alt=E-books>
+						</a>
+					</div>
+				</div>
+
+				<div class="pu05 btnA">
+					<a href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=2888101140iQsWe6wnio" target="_blank" rel="noreferrer noopener">
+						<img src="images/pu05.png" alt="振興擂台戰">
+					</a>
+				</div>
+
+				<div class="pu06 btnA">
+					<a href="javascript:;" id="track08">
+						<img src="images/pu06.png" alt="七夕獨家快閃">
+					</a>
+				</div>
+
+
+			</div>
+
+			<div class="mob">
+				<img src="images/moblie/moblie_03.jpg" usemap="#Mapa" border="0">
+				<map name="Mapa">
+					<area shape="rect" coords="22,4,175,130" class="js-mpu01" href="javascript:;">
+					<area shape="rect" coords="230,-5,383,196" class="js-mpu02" href="javascript:;">
+					<area shape="rect" coords="448,2,599,203" href="#noticeA">
+				</map>
+		  </div>
+
+
+			<div class="mob">
+				<img src="images/moblie/moblie_04.jpg" usemap="#Mapg" border="0">
+				<map name="Mapg" id="Mapg">
+					<area shape="rect" coords="13,9,191,173" class="js-mpu05" href="javascript:;" />
+					<area shape="rect" coords="190,8,330,174" class="js-mpu05" href="javascript:;" />
+					<area shape="rect" coords="336,10,462,215" class="js-mpu05" href="javascript:;" />
+					<area shape="rect" coords="472,13,622,218" class="js-mpu05" href="javascript:;" />
+				</map>
+			</div>
+
+
+			<div class="mob">
+				<img src="images/moblie/moblie_05.jpg" usemap="#Mapc" border="0">
+				<map name="Mapc" id="Mapc">
+					<area shape="rect" coords="-91,5,199,195" href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=2888101140iQsWe6wnio"
+						target="_blank" rel="noreferrer noopener">
+					<area shape="rect" coords="223,2,630,195" class="js-mpu06" href="javascript:;" >
+				</map>
+			</div>
+
+			<!-- 鋪底end -->
+
+		</div><!-- 版頭區塊_main_end -->
+
+
+
+
+
+
+
+
+		<div class="content">
+			<div class="box01">
+				<div class="content01">
+					<a href="#noticeB">
+						<img src="images/box01_pu1.png" alt="0825 全站加碼10%">
+					</a>
+				</div>
+
+				<div class="content02">
+					<a href="javascript:void(0)" id="track03">
+						<img src="images/box01_pu2.png" alt="品牌加碼無上限 10%">
+					</a>
+				</div>
+
+				<div class="content03">
+					<a href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=288808082rdbe7RicAb"
+						target="_blank" rel="noreferrer noopener">
+						<img src="images/box01_pu3.png" alt="銀行回饋10%">
+					</a>
+				</div>
+				<div class="content04">
+					<a href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=20291227179GGJvXGcDB"
+						target="_blank" rel="noreferrer noopener">
+						<img src="images/box01_pu4.png" alt="購物金回饋3%">
+					</a>
+				</div>
+
+			</div>
+
+
+
+			<div class="box02">
+				<div class="btn_info">
+					<a href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=20291227179GGJvXGcDB"
+						target="_blank" rel="noreferrer noopener">
+						<img src="images/Button01.png" alt="詳情">
+					</a>
+				</div>
+
+
+
+
+
+				<div class="content01">
+					<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=O_007_005_001" target="_blank" rel="noreferrer noopener">
+						<img src="images/box02_pu1.png" alt="MARC JACOBS 防刮牛皮撞色相機包">
+					</a>
+
+					<div class="btn_no">
+						<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=O_007_005_001" target="_blank" rel="noreferrer noopener">
+							<img src="images/btn_no.png">
+						</a>
+					</div>
+					<div class="btn_yes"></div>
+					<div class="btn_like"></div>
+					<script>
+						// 增加 class
+						$('.btn_yes').on("click" , function(){
+							$('.btn_like').addClass('active');
+						});
+						// 移除 class
+						// $('.btn_no').on("click" , function(){
+						// 	$('.btn_like').removeClass('active');
+						// });
+	
+						// 同時 增加 與 移除 一起執行
+						// $('.btn_yes').on("click" , function(){
+						// 	$('.btn_like').toggleClass('active');
+						// });
+					</script>
+				</div>
+
+				<div class="content02">
+					<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=A_006_004_110_001" target="_blank" rel="noreferrer noopener">
+						<img src="images/box02_pu2.png" alt="Jo Malone英國梨與小蒼蘭 100ml">
+					</a>
+
+					<div class="btn_no_1">
+						<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=A_006_004_110_001" target="_blank" rel="noreferrer noopener">
+							<img src="images/btn_no.png">
+						</a>
+					</div>
+					<div class="btn_yes_1"></div>
+					<div class="btn_like_1"></div>
+					<script>
+						// 增加 class
+						$('.btn_yes_1').on("click" , function(){
+							$('.btn_like_1').addClass('active');
+						});
+					</script>
+				</div>
+
+				<div class="content03">
+					<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=J_004_019_003" target="_blank" rel="noreferrer noopener">
+						<img src="images/box02_pu3.png" alt="Feeling18 藏心巧克力禮盒">
+					</a>
+
+					<div class="btn_no_2">
+						<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=J_004_019_003" target="_blank" rel="noreferrer noopener">
+							<img src="images/btn_no.png">
+						</a>
+					</div>
+					<div class="btn_yes_2"></div>
+					<div class="btn_like_2"></div>
+					<script>
+						// 增加 class
+						$('.btn_yes_2').on("click" , function(){
+							$('.btn_like_2').addClass('active');
+						});
+					</script>
+				</div>
+
+				<div class="content04">
+					<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=N_008_001_004" target="_blank" rel="noreferrer noopener">
+						<img src="images/box02_pu4.png" alt="日落恩賜四倍晶鑽瑪卡(120粒)">
+					</a>
+
+					<div class="btn_no_3">
+						<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=N_008_001_004" target="_blank" rel="noreferrer noopener">
+							<img src="images/btn_no.png">
+						</a>
+					</div>
+					<div class="btn_yes_3"></div>
+					<div class="btn_like_3"></div>
+					<script>
+						// 增加 class
+						$('.btn_yes_3').on("click" , function(){
+							$('.btn_like_3').addClass('active');
+						});
+					</script>
+				</div>
+
+				<div class="content05">
+					<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=C_004_017_008" target="_blank" rel="noreferrer noopener">
+						<img src="images/box02_pu5.png" alt="Sexy Cynthia浪漫柔緞性感睡衣">
+					</a>
+
+					<div class="btn_no_4">
+						<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=C_004_017_008" target="_blank" rel="noreferrer noopener">
+							<img src="images/btn_no.png">
+						</a>
+					</div>
+					<div class="btn_yes_4"></div>
+					<div class="btn_like_4"></div>
+					<script>
+						// 增加 class
+						$('.btn_yes_4').on("click" , function(){
+							$('.btn_like_4').addClass('active');
+						});
+					</script>
+				</div>
+
+				<div class="content06">
+					<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=N_006_012_001_001" target="_blank" rel="noreferrer noopener">
+						<img src="images/box02_pu6.png" alt="杜蕾斯 飆風碼保險套 24入">
+					</a>
+
+					<div class="btn_no_5">
+						<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=N_006_012_001_001" target="_blank" rel="noreferrer noopener">
+							<img src="images/btn_no.png">
+						</a>
+					</div>
+					<div class="btn_yes_5"></div>
+					<div class="btn_like_5"></div>
+					<script>
+						// 增加 class
+						$('.btn_yes_5').on("click" , function(){
+							$('.btn_like_5').addClass('active');
+						});
+					</script>
+				</div>
+			</div>
+
+
+
+
+
+			<div class="box03">
+				<div class="content01">
+					<a href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=999108101AK9zDX3oQN" target="_blank" rel="noreferrer noopener">
+						<img src="images/box03_pu1.png" alt="愛的迫降">
+					</a>
+				</div>
+
+				<div class="content02">
+					<a href="https://shopping.udn.com/udnmall/hot/空氣清淨機_20200817.html" target="_blank" rel="noreferrer noopener">
+						<img src="images/box03_pu2.png" alt="10大熱銷空氣清淨機">
+					</a>
+				</div>
+
+				<div class="content03">
+					<a href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=2888101151nLmvULYRTc" target="_blank" rel="noreferrer noopener">
+						<img src="images/box03_pu3.png" alt="集點兌換趣">
+					</a>
+				</div>
+
+				<div class="content04">
+					<a href="https://shopping.udn.com/mall/cus/event/Point.do?dc_xuid_0=2587UF4a" target="_blank" rel="noreferrer noopener">
+						<img src="images/box03_pu4.png" alt="七夕脫單攻略">
+					</a>
+				</div>
+
+
+			</div>
+
+
+
+
+			<div class="box04">
+				<div class="btn_info01">
+					<a href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=20291227179GGJvXGcDB" target="_blank" rel="noreferrer noopener">
+						<img src="images/Button01.png" alt="詳情">
+					</a>
+				</div>
+
+				<div class="content01">
+					<a href="https://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010830512" target="_blank" rel="noreferrer noopener">
+						<img src="images/box04_pu1.png" alt="Sodastream FIZZI氣泡水機(冰河藍) 送1L水瓶3入">
+					</a>
+				</div>
+
+				<div class="content02">
+					<a href="https://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010830072" target="_blank" rel="noreferrer noopener">
+						<img src="images/box04_pu2.png" alt="滿意寶寶活潑寶寶紙尿褲 L184片/箱">
+					</a>
+				</div>
+
+				<div class="content03">
+					<a href="https://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010830196" target="_blank" rel="noreferrer noopener">
+						<img src="images/box04_pu3.png" alt="國際牌奈米水離子吹風機NA9B">
+					</a>
+				</div>
+
+				<div class="content04">
+					<a href="https://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010830102" target="_blank" rel="noreferrer noopener">
+						<img src="images/box04_pu4.png" alt="【原廠束口袋】FUJIFILM instax mini 11 拍立得 相機 (公司貨).">
+					</a>
+				</div>
+			</div>
+
+
+			
+			<div class="box05">
+
+				<div class="btn_info02">
+					<a href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=20291227179GGJvXGcDB" target="_blank" rel="noreferrer noopener">
+						<img src="images/Button01.png" alt="詳情">
+					</a>
+				</div>
+
+
+
+				<div class="content01">
+					<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=B_006_002_066_011" target="_blank" rel="noreferrer noopener">
+						<img src="images/box05_pu1.png" alt="PALLADIUM 再生纖維輕量防水靴">
+					</a>
+				</div>
+
+				<div class="content02">
+					<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=P_010_019_007" target="_blank" rel="noreferrer noopener">
+						<img src="images/box05_pu2.png" alt="無印風可調速6吋桌上型充電風扇">
+					</a>
+				</div>
+
+				<div class="content03">
+					<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=T_005_002_008" target="_blank" rel="noreferrer noopener">
+						<img src="images/box05_pu3.png" alt="【OSIM】暖摩枕 OS-102">
+					</a>
+				</div>
+
+				<div class="content04">
+					<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=H_002_009_059_002" target="_blank" rel="noreferrer noopener">
+						<img src="images/box05_pu4.png" alt="HYDY 美型大小保溫雙瓶組">
+					</a>
+				</div>
+
+			</div>
+
+
+
+
+		</div>
+
+
+
+		<div class="mob" id="js-tompu01">
+			<img src="images/moblie/moblie_06.jpg" usemap="#Mapd"border="0">
+			<map name="Mapd" id="Mapd">
+			  <area shape="rect" coords="40,100,301,369" href="#noticeB" />
+			  <area shape="rect" coords="334,99,603,370" class="js-mpu07" href="javascript:;" />
+			</map>
+		</div>
+
+		<div class="mob">
+		<img src="images/moblie/moblie_07.jpg" usemap="#Mape" border="0">
+        <map name="Mape" id="Mape">
+          <area shape="rect" coords="42,19,306,278" href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=288808082rdbe7RicAb" target="_blank" rel="noreferrer noopener">
+          <area shape="rect" coords="335,15,603,286" href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=20291227179GGJvXGcDB" target="_blank" rel="noreferrer noopener">
+        </map>
+		</div>
+
+
+		<div class="mob" id="js-tompu02">
+			<a href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=20291227179GGJvXGcDB" target="_blank" rel="noreferrer noopener">
+				<img src="images/moblie/moblie_08.jpg">
+			</a>
+		</div>
+
+		<div class="mob">
+			<div class="btn_no">
+				<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=O_007_005_001" target="_blank" rel="noreferrer noopener">
+					<img src="images/btn_no.png">
+				</a>
+			</div>
+			<div class="btn_yes"></div>
+			<div class="btn_like"></div>
+			<script>
+				// 增加 class
+				$('.btn_yes').on("click" , function(){
+					$('.btn_like').addClass('active');
+				});
+			</script>
+
+			<div class="btn_no_1">
+				<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=A_006_004_110_001" target="_blank" rel="noreferrer noopener">
+					<img src="images/btn_no.png">
+				</a>
+			</div>
+
+			<div class="btn_yes_1"></div>
+			<div class="btn_like_1"></div>
+			<script>
+			// 增加 class
+				$('.btn_yes_1').on("click" , function(){
+					$('.btn_like_1').addClass('active');
+				});
+			</script>
+
+				<img src="images/moblie/moblie_09.jpg" usemap="#Mapf" border="0">
+                <map name="Mapf" id="Mapf">
+                  <area shape="rect" coords="10,12,313,615" href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=O_007_005_001" target="_blank" rel="noreferrer noopener">
+                  <area shape="rect" coords="329,15,632,615" href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=A_006_004_110_001" target="_blank" rel="noreferrer noopener">
+                </map>
+		</div>
+
+
+
+
+		<div class="mob">
+			<div class="btn_no_2">
+				<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=N_008_001_004" target="_blank" rel="noreferrer noopener">
+					<img src="images/btn_no.png">
+				</a>
+			</div>
+			<div class="btn_yes_2"></div>
+			<div class="btn_like_2"></div>
+			<script>
+				// 增加 class
+				$('.btn_yes_2').on("click" , function(){
+					$('.btn_like_2').addClass('active');
+				});
+			</script>
+
+			<div class="btn_no_3">
+				<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=J_004_019_003" target="_blank" rel="noreferrer noopener">
+					<img src="images/btn_no.png">
+				</a>
+			</div>
+			<div class="btn_yes_3"></div>
+			<div class="btn_like_3"></div>
+			<script>
+				// 增加 class
+				$('.btn_yes_3').on("click" , function(){
+					$('.btn_like_3').addClass('active');
+				});
+			</script>
+
+				<img src="images/moblie/moblie_10.jpg" usemap="#Mapg" border="0">
+                <map name="Mapg" id="Mapg">
+                  <area shape="rect" coords="13,11,311,620" href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=J_004_019_003" />
+                  <area shape="rect" coords="328,13,634,623" href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=N_008_001_004" />
+                </map>
+		</div>
+
+
+
+
+		<div class="mob">
+			<div class="btn_no_4">
+				<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=C_004_017_008" target="_blank" rel="noreferrer noopener">
+					<img src="images/btn_no.png">
+				</a>
+			</div>
+			<div class="btn_yes_4"></div>
+			<div class="btn_like_4"></div>
+			<script>
+				// 增加 class
+				$('.btn_yes_4').on("click" , function(){
+					$('.btn_like_4').addClass('active');
+				});
+			</script>
+			<div class="btn_no_5">
+				<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=N_006_012_001_001" target="_blank" rel="noreferrer noopener">
+					<img src="images/btn_no.png">
+				</a>
+			</div>
+			<div class="btn_yes_5"></div>
+			<div class="btn_like_5"></div>
+			<script>
+				// 增加 class
+				$('.btn_yes_5').on("click" , function(){
+					$('.btn_like_5').addClass('active');
+				});
+			</script>
+
+				<img src="images/moblie/moblie_11.jpg" usemap="#Maph" border="0">
+                <map name="Maph" id="Maph">
+                  <area shape="rect" coords="10,8,315,618" href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=C_004_017_008" />
+                  <area shape="rect" coords="325,11,632,617" href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=N_006_012_001_001" />
+                </map>
+		</div>
+
+
+
+		<div class="mob">
+				<img src="images/moblie/moblie_12.jpg" usemap="#Mapi" border="0">
+                <map name="Mapi" id="Mapi">
+                  <area shape="rect" coords="19,111,310,390" href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=999108101AK9zDX3oQN" target="_blank" rel="noreferrer noopener">
+                  <area shape="rect" coords="323,111,622,392" href="https://shopping.udn.com/udnmall/hot/空氣清淨機_20200817.html" target="_blank" rel="noreferrer noopener">
+                </map>
+		</div>
+
+		<div class="mob">
+		<img src="images/moblie/moblie_13.jpg" usemap="#Mapj" border="0">
+        <map name="Mapj" id="Mapj">
+          <area shape="rect" coords="14,19,388,268" href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=false&UrlRefXuid=2888101151nLmvULYRTc" target="_blank" rel="noreferrer noopener">
+          <area shape="rect" coords="395,14,625,268" href="https://shopping.udn.com/mall/cus/event/Point.do?dc_xuid_0=2587UF4a" target="_blank" rel="noreferrer noopener">
+        </map>
+		</div>
+
+		<div class="mob" id="js-tompu06">
+		<a href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=20291227179GGJvXGcDB" target="_blank" rel="noreferrer noopener">
+			<img src="images/moblie/moblie_14.jpg" border="0">
+		</a>
+	</div>
+
+		<div class="mob" id="js-tompu03">
+				<img src="images/moblie/moblie_15.jpg" usemap="#Mapk" border="0">
+                <map name="Mapk" id="Mapk">
+                  <area shape="rect" coords="19,54,316,699" href="https://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010830512" target="_blank" rel="noreferrer noopener">
+                  <area shape="rect" coords="330,56,618,699" href="https://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010830072" target="_blank" rel="noreferrer noopener">
+                </map>
+		</div>
+
+		<div class="mob">
+				<img src="images/moblie/moblie_16.jpg" usemap="#Mapl" border="0">
+                <map name="Mapl" id="Mapl">
+                  <area shape="rect" coords="22,18,309,658" href="https://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010830196" />
+                  <area shape="rect" coords="326,19,622,658" href="https://shopping.udn.com/mall/cus/cat/Cc1c02.do?dc_cargxuid_0=U010830102" />
+                </map>
+		</div>
+
+		<div class="mob" id="js-tompu07">
+			<a href="https://shopping.udn.com/mall/cus/event/eventPage.do?header=true&UrlRefXuid=20291227179GGJvXGcDB" target="_blank" rel="noreferrer noopener">
+				<img src="images/moblie/moblie_17.jpg">
+			</a>
+		</div>
+
+		<div class="mob" id="js-tompu05">
+			<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=B_006_002_066_011" target="_blank" rel="noreferrer noopener">
+				<img src="images/moblie/moblie_18.jpg">
+			</a>
+		</div>
+
+		<div class="mob" id="js-tompu06">
+			<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=P_010_019_007" target="_blank" rel="noreferrer noopener">
+				<img src="images/moblie/moblie_19.jpg">
+			</a>
+		</div>
+
+		<div class="mob" id="js-tompu06">
+			<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=T_005_002_008" target="_blank" rel="noreferrer noopener">
+				<img src="images/moblie/moblie_20.jpg">
+			</a>
+		</div>
+
+		<div class="mob" id="js-tompu06">
+			<a href="https://shopping.udn.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=H_002_009_059_002" target="_blank" rel="noreferrer noopener">
+				<img src="images/moblie/moblie_21.jpg">
+			</a>
+		</div>
+
+
+
+
+
+
+
+	</div><!-- vspc end -->
+
+
+
+</div><!-- vspc_bg end -->
+
+
+
+
+<!-- PC區塊_主視覺結束 -->
+
+
+<!-- PC區塊_側欄開始 -->
+
+
+
+<style>
+	.sbar * {
+		margin: 0;
+		padding: 0;
+		-webkit-text-size-adjust: none;
+		list-style: none;
+	}
+
+
+	.sbar {
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		font-family: "Century Gothic", "Microsoft JhengHei", 'Microsoft JhengHei UI Regular', '微軟正黑體 Light', '微軟正黑體', sans-serif;
+		text-align: center;
+		position: fixed;
+		z-index: 999;
+		overflow: hidden;
+		width: 160px;
+		/* PC區塊側欄_寬，依圖寬填入 */
+		height: 375px;
+		/* PC區塊側欄_高,依圖高填入 */
+		top: 70px;
+		/* PC區塊側欄_離上方距離 */
+		right: 0px;
+		/* PC區塊側欄_離右方距離 */
+		transition: all .3s;
+		/* top: 150px; */
+		/* 套HEADER時需要打開 */
+	}
+
+	.sbar>ul {
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+
+	.sbar>ul>li {
+		display: block;
+		position: absolute;
+	}
+
+	.sbar>ul>li.sright {
+		width: 100%;
+		height: 100%;
+		/* background: red;*/
+	}
+
+	.sbar>ul>li.sleft {
+		width: 30px;
+		height: 100%;
+		cursor: pointer;
+		background: url(images/pc_right_bar.png) left top no-repeat;
+	}
+
+	.sbarright {
+		right: -130px;
+	}
+
+	.sbartop {
+		top: 70px;
+	}
+
+	@media screen and (max-width: 640px) {
+		.sbar {
+			display: none;
+		}
+	}
+</style>
+<script>
+	$(function () {
+		var WW = $(window).width();
+		if (WW < 1510) {
+			$(".sbar").addClass("sbarright");
+		} else {
+			$(".sbar").removeClass("sbarright");
+		}
+		$(".sleft").click(function () {
+			$(".sbar").toggleClass('sbarright');
+		});
+		$(window).resize(function () {
+			var WW = $(window).width();
+			if (WW < 1510) {
+				$(".sbar").addClass("sbarright");
+			} else {
+				$(".sbar").removeClass("sbarright");
+			}
+		});
+		$(window).scroll(function () {
+			var HH = $(window).scrollTop();
+			if (HH > 80) {
+				$(".sbar").addClass("sbartop");
+			} else {
+				$(".sbar").removeClass("sbartop");
+			}
+		});
+
+		$("#backtop").click(function () {
+			// $(window).scrollTop(0);
+			$("html,body").animate({
+				scrollTop: 0
+			}, 800);
+		});
+
+
+
+		// ========moblie 錨點 前面class後面id ========
+
+
+		$(".js-mpu01").on("click", function () {
+			var offsetTop = $('#js-tompu01').offset().top;
+			$('html, body').stop().animate({
+				scrollTop: offsetTop
+			}, 800);
+		});
+
+		$(".js-mpu02").on("click", function () {
+			var offsetTop = $('#js-tompu02').offset().top;
+			$('html, body').stop().animate({
+				scrollTop: offsetTop
+			}, 800);
+		});
+
+		$(".js-mpu03").on("click", function () {
+			var offsetTop = $('#js-tompu03').offset().top;
+			$('html, body').stop().animate({
+				scrollTop: offsetTop
+			}, 800);
+		});
+
+
+		$(".js-mpu04").on("click", function () {
+			var offsetTop = $('#js-tompu04').offset().top;
+			$('html, body').stop().animate({
+				scrollTop: offsetTop
+			}, 800);
+		});
+
+
+		$(".js-mpu05").on("click", function () {
+			var offsetTop = $('#js-tompu05').offset().top;
+			$('html, body').stop().animate({
+				scrollTop: offsetTop
+			}, 800);
+		});
+
+
+		$(".js-mpu06").on("click", function () {
+			var offsetTop = $('#js-tompu06').offset().top;
+			$('html, body').stop().animate({
+				scrollTop: offsetTop
+			}, 800);
+		});
+
+
+		$(".js-mpu07").on("click", function () {
+			var offsetTop = $('#js-tompu07').offset().top;
+			$('html, body').stop().animate({
+				scrollTop: offsetTop
+			}, 800);
+		});
+
+
+
+
+
+
+
+
+		// ========PC 錨點========
+
+
+
+		$("#track01").click(function () {
+			// $(window).scrollTop(0);
+			$("html,body").animate({
+				scrollTop: 1100
+			}, 800);
+		});
+
+
+
+		$("#track02").click(function () {
+			// $(window).scrollTop(0);
+			$("html,body").animate({
+				scrollTop: 1600
+			}, 800);
+		});
+
+
+
+		$("#track03").click(function () {
+			// $(window).scrollTop(0);
+			$("html,body").animate({
+				scrollTop: 5150
+			}, 800);
+		});
+
+
+
+		$("#track04").click(function () {
+			// $(window).scrollTop(0);
+			$("html,body").animate({
+				scrollTop: 6300
+			}, 800);
+		});
+
+
+		$("#track05").click(function () {
+			// $(window).scrollTop(0);
+			$("html,body").animate({
+				scrollTop: 5000
+			}, 800);
+		});
+
+
+		$("#track06").click(function () {
+			// $(window).scrollTop(0);
+			$("html,body").animate({
+				scrollTop: 5900
+			}, 800);
+		});
+
+
+		$("#track07").click(function () {
+			// $(window).scrollTop(0);
+			$("html,body").animate({
+				scrollTop: 5500
+			}, 800);
+		});
+
+
+		$("#track08").click(function () {
+			// $(window).scrollTop(0);
+			$("html,body").animate({
+				scrollTop: 4320
+			}, 800);
+		});
+
+
+
+
+
+		// ======右bar錨點======
+
+		$("#Rtrack01").click(function () {
+			// $(window).scrollTop(0);
+			$("html,body").animate({
+				scrollTop: 1100
+			}, 800);
+		});
+
+
+		$("#Rtrack02").click(function () {
+			// $(window).scrollTop(0);
+			$("html,body").animate({
+				scrollTop: 1590
+			}, 800);
+		});
+
+
+		$("#Rtrack03").click(function () {
+			// $(window).scrollTop(0);
+			$("html,body").animate({
+				scrollTop: 4320
+			}, 800);
+		});
+
+
+		$("#Rtrack04").click(function () {
+			// $(window).scrollTop(0);
+			$("html,body").animate({
+				scrollTop: 5150
+			}, 800);
+		});
+
+
+	});
+
+
+
+
+</script>
+
+<div class="sbar">
+	<ul>
+		<li class="sright"><img src="images/pc_right_bar.png"
+				usemap="#Map111">
+			<map name="Map111">
+				<area shape="rect" coords="38,19,150,55" href="https://shopping.udn.com/mall/Cc1a00.do" target="_blank">
+				<area shape="rect" coords="37,65,154,134" href="https://shopping.udn.com/mall/cus/event/Point.do?dc_xuid_0=2587UF4a">
+				<area shape="rect" coords="30,142,164,174" href="javascript:void(0)" id="Rtrack01">
+				<area shape="rect" coords="34,184,158,210" href="javascript:void(0)" id="Rtrack02">
+				<area shape="rect" coords="32,219,162,255" href="javascript:void(0)" id="Rtrack03">
+				<area shape="rect" coords="34,263,161,297" href="javascript:void(0)" id="Rtrack04">
+				<area shape="rect" coords="33,305,153,341" href="javascript:void(0)" id="backtop">
+			</map>
+		</li>
+		<li class="sleft"></li>
+	</ul>
+</div>
+<!-- PC區塊_側欄結束 -->
+
+
+<!-- MOBILE區塊_下方選單開始 -->
+<style>
+	.bbar {
+		display: none;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		position: fixed;
+		z-index: 999;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-image: url(images/mobile_right_bar.png);
+		/* 選單背景圖 */
+		overflow: hidden;
+		width: 100vw;
+		height: calc(100vw / 768 * 100);
+		bottom: 0px;
+	}
+
+	.bbar>a {
+		box-sizing: inherit;
+		-webkit-box-sizing: inherit;
+		text-decoration: none;
+		display: block;
+		float: left;
+		width: calc(100vw/4);
+		/* MO2BILE區塊下方選單_數量,有幾個就除幾個(目前6) */
+		height: 100%;
+	}
+
+	@media screen and (max-width: 640px) {
+		.bbar {
+			display: block;
+		}
+	}
+</style>
+<div class="bbar">
+	<a class="js-mpu01" href="javascript:;"></a>
+	<a class="js-mpu06" href="javascript:;"></a>
+	<a class="js-mpu07" href="javascript:;"></a>
+	<a href="#PageTop"></a>
+
+	<!-- MOBILE區塊下方選單_數量,有幾個就開幾排<a>(目前6) -->
+</div>
+<!-- MOBILE區塊_下方選單結束 -->
